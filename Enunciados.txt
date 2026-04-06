@@ -1,0 +1,48 @@
+12 - Maior valor - Leia 5 números e mostre o maior deles.
+13 - Número primo - Leia um número e diga se ele é primo.
+14 - Sequência de Fibonacci - Mostre os primeiros N termos.
+15 - Maior e menor - Leia 10 números e mostre o maior e o menor.
+17 - Uma empresa possui um sistema simples de controle de acesso por senha. O usuário deve digitar a senha correta: "1234"; Ele tem no máximo 3 tentativas. Se errar 3 vezes, o sistema deve bloquear o acesso; Se acertar, mostrar: "Acesso permitido"; Se errar, mostrar: "Senha incorreta". 
+18 - Simule um caixa eletrônico: O saldo inicial é R$ 1000. O usuário pode sacar quantas vezes quiser enquanto houver saldo. Cada saque deve: Ser maior que 0 e não ultrapassar o saldo; Se o valor for inválido, mostrar "Valor inválido"; Após cada saque, mostrar o saldo atualizado; O programa termina quando o saldo chegar a 0 ou o usuário digitar 0.
+19 - Uma máquina industrial precisa ser monitorada: O operador digita temperaturas continuamente; O programa só para quando for digitado -1; Para cada temperatura: Se for maior que 80 → "ALERTA: Temperatura crítica"; Se estiver entre 50 e 80 → "Temperatura elevada"; Caso contrário → "Temperatura normal". Conte quantas vezes entrou em estado crítico, mostre o total no final.
+20 - Sistema de login com regras mais rígidas. O usuário deve informar: Login: "admin", Senha: "senha123", o sistema roda até acertar OU bloquear. Após 5 tentativas erradas, bloquear acesso. A cada erro, informar: "Login ou senha inválidos". Se acertar: "Bem-vindo ao sistema". Se o login estiver correto mas a senha errada, mostrar: "Senha incorreta". Se o login estiver errado: "Usuário não encontrado".
+
+
+
+
+
+
+
+
+
+
+
+
+16 - Soma de divisores - Leia um número e mostre a soma dos seus divisores.
+8 - Números pares - Mostre todos os números pares de 1 até 50.
+9 - Números ímpares - Mostre os ímpares de 1 até N.
+10 - Múltiplos - Mostre todos os múltiplos de 5 entre 1 e 100.
+11 - Contador de pares - Leia 10 números e conte quantos são pares.
+
+
+https://github.com/qmclouca/ExerciciosTurma2026A
+
+7) Escreva todos os números de 1 a 10 usando um laço de repetição FOR
+
+6)Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor. 
+
+
+
+5) O custo de um carro novo ao consumidor é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor. 
+
+
+
+1) Escreva um algoritmo que armazene o valor 10 em uma variável A e o valor 20 em uma variável B.
+A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o
+valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados
+nas variáveis. 
+3) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a
+área do retângulo. 
+4) Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos
+brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total
+de eleitores
