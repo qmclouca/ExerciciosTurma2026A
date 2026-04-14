@@ -9,7 +9,17 @@
 
 
 
+Algoritmo "MaiorValor"
 
+Var
+
+
+
+Inicio
+
+
+
+Fimalgoritmo
 
 
 
