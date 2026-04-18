@@ -1,3 +1,41 @@
+21 -  Observe o diagrama e determine a saída X.
+
+ A ─────┐
+          ──[ E ]── D ───┐
+ B ─────┘                ├──[ OU ]── X
+ C ──────────────────┘
+X=(A⋅B)+C
+
+Faça o diagrama da verdade e o algoritmo em visualG que representa e executa essa lógica.
+
+22.
+ A ──[ NÃO ]── NA ──┐
+                                            ├──[ E ]── X
+ B ────────────┘
+X=A⋅B
+
+23.
+ A ─────┐
+                    ├──[ OU ]── D ───┐
+ B ─────┘                                     ├──[ E ]── X
+ C ──[ NÃO ]── NC ───────┘
+
+X=(A+B)⋅C
+
+24.
+
+ A ─────┐
+                     ├──[ E ]── D ───┐
+ B ─────┘                                   ├──[ XOR ]── X
+ C ────────────────┘
+X=(A⋅B)⊕C
+
+ A ──[ NÃO ]── NA ──┐
+                                            ├──[ OU ]── D ───┐
+ B ───────  ────┘                                    ├──[ E ]── X
+ C ────────────────────────┘
+X=(A+B)⋅C
+
 12 - Maior valor - Leia 5 números e mostre o maior deles.
 13 - Número primo - Leia um número e diga se ele é primo.
 14 - Sequência de Fibonacci - Mostre os primeiros N termos.
