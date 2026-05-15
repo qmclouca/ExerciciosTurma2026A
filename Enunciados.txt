@@ -1,3 +1,77 @@
+30. Crie uma função recursiva que receba um número inteiro positivo e retorne a soma de seus dígitos.
+Digite um numero: 358
+Resultado = 16
+
+31. Crie um procedimento recursivo que exiba um número inteiro invertido.
+Digite um numero: 1234
+4321
+32. Crie um algoritmo recursivo que resolva o problema da Torre de Hanói.
+O programa deve mostrar os movimentos necessários para mover N discos da torre A para a torre C.
+
+Mover disco de A para C
+Mover disco de A para B
+Mover disco de C para B
+...
+
+
+27. Crie uma função recursiva para calcular o fatorial de um número.
+
+28. Crie um procedimento que leia três notas, calcule a média, exiba a situação do aluno
+    Média >= 7 -> Aprovado
+    Média >= 5 -> Recuperação
+    Senão -> Reprovado
+
+29. Crie uma função recursiva para calcular o MDC entre dois números usando o algoritmo de Euclides (Fórmula MDC(a,b) = MDC(b, a mod b)) 
+
+
+26. Problema Real: Cálculo de Conta de Energia com Energia Solar
+Contexto
+
+Uma residência possui um sistema de energia solar.
+
+Dados:
+
+Consumo mensal (kWh)
+Geração solar mensal (kWh)
+Tarifa da energia (R$/kWh)
+Taxa fixa (iluminação pública)
+
+Regras:
+
+O consumo líquido é:
+
+consumo_liquido=consumo−geracao
+Se o consumo líquido for negativo:
+O valor a pagar será apenas a taxa fixa
+Se for positivo:
+paga-se o consumo líquido × tarifa + taxa fixa
+Objetivo
+
+Calcular o valor final da conta de energia.
+
+
+
+COM BANDEIRAS, regras de negócio
+
+Bandeira Verde
+Condições favoráveis de produção de energia.
+O valor da sua conta de energia terá a média que você está acostumado a pagar.
+
+Bandeira Amarela
+Condições de produção estão um pouco mais caras.
+O valor da sua conta de energia terá um acréscimo de R$ 1,885 a cada 100 kWh consumidos. Fique atento ao seu consumo.
+
+Vermelha - Patamar 01
+Condições mais custosas de geração de energia.
+O valor da sua conta de energia terá um acréscimo de R$ 4,463 a cada 100 kWh consumidos. Fique atento ao seu consumo.
+
+Vermelha - Patamar 02
+Condições menos favoráveis de geração de energia.
+O valor da sua conta de energia terá um acréscimo de R$ 7,877 a cada 100 kWh consumidos. Fique atento ao seu consumo.
+
+
+
+
 21 -  Observe o diagrama e determine a saída X.
 
  A ─────┐
@@ -9,15 +83,15 @@ X=(A⋅B)+C
 Faça o diagrama da verdade e o algoritmo em visualG que representa e executa essa lógica.
 
 22.
- A ──[ NÃO ]── NA ──┐
-                                            ├──[ E ]── X
+ A ──[ NÃO ]── NA ┐
+                   ├──[ E ]── X
  B ────────────┘
 X=A⋅B
 
 23.
  A ─────┐
-                    ├──[ OU ]── D ───┐
- B ─────┘                                     ├──[ E ]── X
+         ├──[ OU ]── D ───┐
+ B ─────┘                  ├──[ E ]── X
  C ──[ NÃO ]── NC ───────┘
 
 X=(A+B)⋅C
@@ -25,15 +99,16 @@ X=(A+B)⋅C
 24.
 
  A ─────┐
-                     ├──[ E ]── D ───┐
- B ─────┘                                   ├──[ XOR ]── X
- C ────────────────┘
+          ├──[ E ]── D ───┐
+ B ─────┘                  ├──[ XOR ]── X
+ C ────────────────────┘
 X=(A⋅B)⊕C
 
+25.
  A ──[ NÃO ]── NA ──┐
-                                            ├──[ OU ]── D ───┐
- B ───────  ────┘                                    ├──[ E ]── X
- C ────────────────────────┘
+                      ├──[ OU ]── D ───┐
+ B ────────   ────┘                   ├──[ E ]── X
+ C ──────────────────────────────┘
 X=(A+B)⋅C
 
 12 - Maior valor - Leia 5 números e mostre o maior deles.
